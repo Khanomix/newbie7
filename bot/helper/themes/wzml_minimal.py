@@ -104,16 +104,16 @@ class WZMLStyle:
     # ---------------------
 
     # async def restart(client, message): ---> __main__.py
-    RESTARTING = '<i>🔥Restarting...</i>'
+    RESTARTING = '🔥<i>Restarting...</i>'
     # ---------------------
 
     # async def restart_notification(): ---> __main__.py
-    RESTART_SUCCESS = '''⌬ <b><i>🔥Restarted Successfully!</i></b>
+    RESTART_SUCCESS = '''🔥 <b><i>Restarted Successfully!</i></b>
 ┠ <b>Date:</b> {date}
 ┠ <b>Time:</b> {time}
 ┠ <b>TimeZone:</b> {timz}
 ┖ <b>Version:</b> {version}'''
-    RESTARTED = '''⌬ <b><i>🔥Bot Restarted!</i></b>'''
+    RESTARTED = '''🔥 <b><i>Bot Restarted!</i></b>'''
     # ---------------------
 
     # async def ping(client, message): ---> __main__.py
@@ -122,7 +122,7 @@ class WZMLStyle:
     # ---------------------
 
     # async def onDownloadStart(self): --> tasks_listener.py
-     LINKS_START = """<b><i>🟢Task Started</i></b>
+     LINKS_START = """<b><i>Task Started</i></b>
 ⚡️ <b>Mode:</b> {Mode}
 🛒 <b>By:</b> {Tag}\n\n"""
      LINKS_SOURCE = """➲ <b>Source:</b>
